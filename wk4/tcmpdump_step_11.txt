@@ -1,0 +1,23 @@
+root@comp3134Winter2024:~# tcpdump -i eth0 src 146.190.246.68
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), snapshot length 262144 bytes
+16:38:38.980554 IP comp3134Winter2024.ssh > 198.96.84.204.56152: Flags [P.], seq 1069502682:1069502790, ack 4075073628, win 501, length 108
+16:38:38.980625 IP comp3134Winter2024.ssh > 198.96.84.204.56152: Flags [P.], seq 108:144, ack 1, win 501, length 36
+16:38:38.980638 IP comp3134Winter2024.ssh > 198.96.84.204.56152: Flags [P.], seq 144:196, ack 1, win 501, length 52
+16:38:38.980666 IP comp3134Winter2024.ssh > 198.96.84.204.56152: Flags [P.], seq 196:264, ack 1, win 501, length 68
+16:38:38.980696 IP comp3134Winter2024.ssh > 198.96.84.204.56152: Flags [P.], seq 264:332, ack 1, win 501, length 68
+16:38:38.980721 IP comp3134Winter2024.ssh > 198.96.84.204.56152: Flags [P.], seq 332:368, ack 1, win 501, length 36
+16:38:39.079837 IP comp3134Winter2024.58367 > 67.207.67.2.domain: 11415+ [1au] PTR? 204.84.96.198.in-addr.arpa. (55)
+16:38:39.079953 IP comp3134Winter2024.53685 > 67.207.67.2.domain: 9230+ [1au] PTR? 204.84.96.198.in-addr.arpa. (55)
+16:38:39.080016 IP comp3134Winter2024.55122 > 67.207.67.2.domain: Flags [S], seq 31298441, win 64240, options [mss 1460,sackOK,TS val 2453418788 ecr 0,nop,wscale 7,tfo  cookiereq,nop,nop], length 0
+16:38:39.081373 IP comp3134Winter2024.55122 > 67.207.67.2.domain: Flags [.], ack 1659581766, win 502, options [nop,nop,TS val 2453418789 ecr 2781180231], length 0
+16:38:39.081497 IP comp3134Winter2024.55122 > 67.207.67.2.domain: Flags [P.], seq 0:46, ack 1, win 502, options [nop,nop,TS val 2453418789 ecr 2781180231], length 46 6250+ PTR? 204.84.96.198.in-addr.arpa. (44)
+16:38:39.083799 IP comp3134Winter2024.58367 > 67.207.67.2.domain: 11415+ PTR? 204.84.96.198.in-addr.arpa. (44)
+16:38:39.083849 IP comp3134Winter2024.53685 > 67.207.67.2.domain: 9230+ PTR? 204.84.96.198.in-addr.arpa. (44)
+16:38:39.085402 IP comp3134Winter2024.55122 > 67.207.67.2.domain: Flags [.], ack 112, win 502, options [nop,nop,TS val 2453418793 ecr 2781180236], length 0
+16:38:39.099055 IP comp3134Winter2024.35249 > 67.207.67.2.domain: 8421+ [1au] PTR? 68.246.190.146.in-addr.arpa. (56)
+^C16:38:39.102716 IP comp3134Winter2024.ssh > 36.137.79.210.44714: Flags [.], ack 2431731908, win 502, options [nop,nop,TS val 453434989 ecr 743649193], length 0
+
+16 packets captured
+72 packets received by filter
+32 packets dropped by kernel

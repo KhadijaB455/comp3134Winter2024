@@ -1,0 +1,14 @@
+PINGING FROM my Local Machine (GBC)
+Pinging 99.79.139.11 with 32 bytes of data:
+Reply from 99.79.139.11: bytes=32 time=9ms TTL=45
+Reply from 99.79.139.11: bytes=32 time=11ms TTL=45
+Reply from 99.79.139.11: bytes=32 time=12ms TTL=45
+
+
+PINGING FROM my Local Machine with specified time (GBC)
+Pinging 99.79.139.11 with 32 bytes of data:
+Reply from 99.79.139.11: bytes=32 time=12ms TTL=45
+Reply from 99.79.139.11: bytes=32 time=11ms TTL=45
+Reply from 99.79.139.11: bytes=32 time=11ms TTL=45
+Reply from 99.79.139.11: bytes=32 time=16ms TTL=45
+

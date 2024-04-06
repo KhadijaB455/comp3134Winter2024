@@ -1,0 +1,24 @@
+What is the definition of server port?
+ A port number is a means of identifying an application or service
+on a server to which a message that comes over a network is to be forwarded
+
+What is server port range?
+The server port range is 0 to 65536
+
+How many bits does number above represent?
+The common server ports mentioned above are associated with the TCP
+ (Transmission Control Protocol) or UDP (User Datagram Protocol) transport protocols, 
+ which use 16-bit port numbers. Therefore, each port number can be represented using 16 bits.
+
+State the   ten common server ports:
+1. HTTP (Hypertext Transfer Protocol) - Port 80
+2. HTTPS (HTTP Secure) - Port 443
+3. FTP (File Transfer Protocol) - Port 21
+4. SSH (Secure Shell) - Port 22
+5. SMTP (Simple Mail Transfer Protocol) - Port 25
+6. DNS (Domain Name System) - Port 53
+7. POP3 (Post Office Protocol version 3) - Port 110
+8. IMAP (Internet Message Access Protocol) - Port 143
+9. SNMP (Simple Network Management Protocol) - Port 161
+10. HTTPS (Alternative) - Port 8443
+

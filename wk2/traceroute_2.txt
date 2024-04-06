@@ -1,0 +1,6 @@
+Traceroute from LOCAL (GBC)
+
+Tracing route to ec2-99-79-139-11.ca-central-1.compute.amazonaws.com [99.79.139.11]
+over a maximum of 30 hops:
+
+  1     1 ms     1 ms     1 ms

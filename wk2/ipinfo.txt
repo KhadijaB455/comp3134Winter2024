@@ -1,0 +1,6 @@
+IP INFO
+1. IP ADDRESS: georgebrown.ca  99.79.139.11, TYPE:IPv4, HOSTED BY: Amazon, Location: Canada
+2. IP ADDRESS: trentu.ca 192.197.151.10, TYPE:IPv4, HOSTED BY: Trent Uni, Location: Canada
+3. IP ADDRESS: sephora.com  23.206.4.124, TYPE:IPv4, HOSTED BY: Akami Tech, Location: United States
+4. IP ADDRESS: twitter.com  104.244.42.129, TYPE:IPv4, HOSTED BY: Twitter Inc, Location: United States
+5. IP ADDRESS: costco.ca  104.68.111.140, TYPE:IPv4, HOSTED BY: Akami Tech, Location: United States

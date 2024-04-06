@@ -1,0 +1,49 @@
+FIRST OUTPUT
+
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# nmap 99.79.139.11
+Starting Nmap 7.80 ( https://nmap.org ) at 2024-02-02 19:13 UTC
+Nmap scan report for ec2-99-79-139-11.ca-central-1.compute.amazonaws.com (99.79.139.11)
+Host is up (0.0086s latency).
+Not shown: 997 filtered ports
+PORT    STATE SERVICE
+22/tcp  open  ssh
+80/tcp  open  http
+443/tcp open  https
+
+SECOND OUTPUT
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# nmap -p 22 99.79.139.11
+Starting Nmap 7.80 ( https://nmap.org ) at 2024-02-02 19:16 UTC
+Nmap scan report for ec2-99-79-139-11.ca-central-1.compute.amazonaws.com (99.79.139.11)
+Host is up (0.0088s latency).
+
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap done: 1 IP address (1 host up) scanned in 0.06 seconds
+
+THIRD OUTPUT
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# nmap -p 22-443 99.79.139.11
+Starting Nmap 7.80 ( https://nmap.org ) at 2024-02-02 19:17 UTC
+Nmap scan report for ec2-99-79-139-11.ca-central-1.compute.amazonaws.com (99.79.139.11)
+Host is up (0.0086s latency).
+Not shown: 419 filtered ports
+PORT    STATE SERVICE
+22/tcp  open  ssh
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 3.07 seconds
+
+FOURTH OUTPUT
+
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# nmap -F 99.79.139.11
+Starting Nmap 7.80 ( https://nmap.org ) at 2024-02-02 19:18 UTC
+Nmap scan report for ec2-99-79-139-11.ca-central-1.compute.amazonaws.com (99.79.139.11)
+Host is up (0.0087s latency).
+Not shown: 97 filtered ports
+PORT    STATE SERVICE
+22/tcp  open  ssh
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 2.27 seconds

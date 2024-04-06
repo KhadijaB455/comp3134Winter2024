@@ -1,0 +1,23 @@
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# tcpdump -i eth0 port 22
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), snapshot length 262144 bytes
+18:46:48.535841 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 198.96.84.204.53163: Flags [P.], seq 899580770:899580878, ack 1211164744, win 501, length 108
+18:46:48.535978 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 198.96.84.204.53163: Flags [P.], seq 108:264, ack 1, win 501, length 156
+18:46:48.536111 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 198.96.84.204.53163: Flags [P.], seq 264:368, ack 1, win 501, length 104
+18:46:48.619988 IP 198.96.84.204.53163 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 368, win 509, length 0
+18:46:48.640599 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 198.96.84.204.53163: Flags [P.], seq 368:556, ack 1, win 501, length 188
+18:46:48.640700 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 198.96.84.204.53163: Flags [P.], seq 556:756, ack 1, win 501, length 200
+18:46:48.640773 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 198.96.84.204.53163: Flags [P.], seq 756:956, ack 1, win 501, length 200
+18:46:48.640873 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 198.96.84.204.53163: Flags [P.], seq 956:1184, ack 1, win 501, length 228
+18:46:48.701099 IP 198.96.84.204.53163 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 956, win 512, length 0
+18:46:48.701100 IP 198.96.84.204.53163 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 1184, win 511, length 0
+18:46:48.739738 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 198.96.84.204.53163: Flags [P.], seq 1184:1348, ack 1, win 501, length 164
+18:46:48.739814 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 198.96.84.204.53163: Flags [P.], seq 1348:1548, ack 1, win 501, length 200
+18:46:48.739912 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 198.96.84.204.53163: Flags [P.], seq 1548:1948, ack 1, win 501, length 400
+18:46:48.739973 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 198.96.84.204.53163: Flags [P.], seq 1948:2176, ack 1, win 501, length 228
+18:46:48.740041 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 198.96.84.204.53163: Flags [P.], seq 2176:2368, ack 1, win 501, length 192
+18:46:48.769665 IP 198.96.84.204.53163 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 2368, win 512, length 0
+^C
+16 packets captured
+26 packets received by filter
+0 packets dropped by kernel

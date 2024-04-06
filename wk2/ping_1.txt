@@ -1,0 +1,15 @@
+PINGING FROM VM(GBC)
+PING 99.79.139.11 (99.79.139.11) 56(84) bytes of data.
+64 bytes from 99.79.139.11: icmp_seq=1 ttl=49 time=8.80 ms
+64 bytes from 99.79.139.11: icmp_seq=2 ttl=49 time=7.82 ms
+64 bytes from 99.79.139.11: icmp_seq=3 ttl=49 time=7.90 ms
+64 bytes from 99.79.139.11: icmp_seq=4 ttl=49 time=7.84 ms
+64 bytes from 99.79.139.11: icmp_seq=5 ttl=49 time=7.89 ms
+
+
+PINGING FROM VM with a specified time (GBC)
+PING 99.79.139.11 (99.79.139.11) 56(84) bytes of data.
+64 bytes from 99.79.139.11: icmp_seq=1 ttl=49 time=8.68 ms
+64 bytes from 99.79.139.11: icmp_seq=2 ttl=49 time=7.81 ms
+64 bytes from 99.79.139.11: icmp_seq=3 ttl=49 time=9.16 ms
+64 bytes from 99.79.139.11: icmp_seq=4 ttl=49 time=7.76 ms

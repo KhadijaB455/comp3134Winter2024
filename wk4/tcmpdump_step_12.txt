@@ -1,0 +1,48 @@
+root@comp3134Winter2024:~# tcpdump -i eth0 dst 146.190.246.68
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), snapshot length 262144 bytes
+16:39:44.164811 IP 198.96.84.204.56152 > comp3134Winter2024.ssh: Flags [.], ack 1069507414, win 508, length 0
+16:39:44.245364 IP 67.207.67.2.domain > comp3134Winter2024.44476: 2829 NXDomain 0/1/1 (123)
+16:39:44.246472 IP 67.207.67.2.domain > comp3134Winter2024.44476: 2829 NXDomain 0/1/0 (112)
+16:39:44.247731 IP 67.207.67.2.domain > comp3134Winter2024.57818: 14161 NXDomain 0/1/1 (120)
+16:39:44.247772 IP 67.207.67.2.domain > comp3134Winter2024.33961: 32527 NXDomain 0/1/1 (120)
+16:39:44.248302 IP 67.207.67.2.domain > comp3134Winter2024.57818: 14161 NXDomain 0/1/0 (109)
+16:39:44.248357 IP 67.207.67.2.domain > comp3134Winter2024.33961: 32527 NXDomain 0/1/0 (109)
+16:39:44.248904 IP 67.207.67.2.domain > comp3134Winter2024.49120: Flags [S.], seq 2062401519, ack 1129167504, win 65160, options [mss 1460,sackOK,TS val 2781245399 ecr 2453483955,nop,wscale 9], length 0
+16:39:44.249282 IP 67.207.67.2.domain > comp3134Winter2024.49120: Flags [.], ack 47, win 128, options [nop,nop,TS val 2781245400 ecr 2453483957], length 0
+16:39:44.249588 IP 67.207.67.2.domain > comp3134Winter2024.49120: Flags [P.], seq 1:112, ack 47, win 128, options [nop,nop,TS val 2781245400 ecr 2453483957], length 111 33934 NXDomain 0/1/0 (109)
+16:39:44.252954 IP 198.96.84.204.56152 > comp3134Winter2024.ssh: Flags [.], ack 185, win 508, length 0
+16:39:44.315437 IP 67.207.67.2.domain > comp3134Winter2024.41371: 28578 NXDomain 0/1/1 (120)
+16:39:44.315457 IP 67.207.67.2.domain > comp3134Winter2024.42013: 21265 NXDomain 0/1/1 (120)
+16:39:44.315654 IP 67.207.67.2.domain > comp3134Winter2024.49120: Flags [P.], seq 112:223, ack 91, win 128, options [nop,nop,TS val 2781245466 ecr 2453484023], length 111 53757 NXDomain 0/1/0 (109)
+16:39:44.315993 IP 67.207.67.2.domain > comp3134Winter2024.42013: 21265 NXDomain 0/1/0 (109)
+16:39:44.316039 IP 67.207.67.2.domain > comp3134Winter2024.41371: 28578 NXDomain 0/1/0 (109)
+16:39:44.319638 IP 198.96.84.204.56152 > comp3134Winter2024.ssh: Flags [.], ack 1193, win 512, length 0
+16:39:44.319639 IP 198.96.84.204.56152 > comp3134Winter2024.ssh: Flags [.], ack 1193, win 512, options [nop,nop,sack 1 {1429:1465}], length 0
+16:39:44.319639 IP 198.96.84.204.56152 > comp3134Winter2024.ssh: Flags [.], ack 1193, win 512, options [nop,nop,sack 1 {1429:1653}], length 0
+16:39:44.319639 IP 198.96.84.204.56152 > comp3134Winter2024.ssh: Flags [.], ack 1193, win 512, options [nop,nop,sack 1 {1429:1689}], length 0
+16:39:44.328930 IP 198.96.84.204.56152 > comp3134Winter2024.ssh: Flags [.], ack 2137, win 509, length 0
+16:39:44.328930 IP 198.96.84.204.56152 > comp3134Winter2024.ssh: Flags [.], ack 1193, win 512, options [nop,nop,sack 1 {1429:2137}], length 0
+16:39:44.421882 IP 198.96.84.204.56152 > comp3134Winter2024.ssh: Flags [.], ack 3221, win 512, length 0
+16:39:44.421882 IP 198.96.84.204.56152 > comp3134Winter2024.ssh: Flags [.], ack 4045, win 509, length 0
+16:39:44.426253 IP 198.96.84.204.56152 > comp3134Winter2024.ssh: Flags [.], ack 4297, win 508, length 0
+16:39:44.529170 IP 198.96.84.204.56152 > comp3134Winter2024.ssh: Flags [.], ack 4825, win 512, length 0
+16:39:44.630381 IP 198.96.84.204.56152 > comp3134Winter2024.ssh: Flags [.], ack 5001, win 512, length 0
+16:39:44.824979 IP 198.96.84.204.56152 > comp3134Winter2024.ssh: Flags [.], ack 5177, win 511, options [nop,nop,sack 1 {5141:5177}], length 0
+16:39:44.853858 IP 198.96.84.204.56152 > comp3134Winter2024.ssh: Flags [.], ack 5393, win 510, length 0
+16:39:45.010638 IP 198.96.84.204.56152 > comp3134Winter2024.ssh: Flags [.], ack 5533, win 509, length 0
+16:39:45.046218 IP 186.1.178.61.60472 > comp3134Winter2024.ssh: Flags [S], seq 376904372, win 64240, options [mss 1412,sackOK,TS val 1817853552 ecr 0,nop,wscale 7], length 0
+16:39:45.089647 IP 198.96.84.204.56152 > comp3134Winter2024.ssh: Flags [.], ack 5673, win 509, length 0
+16:39:45.145643 IP 186.1.178.61.60472 > comp3134Winter2024.ssh: Flags [.], ack 336618437, win 502, options [nop,nop,TS val 1817853652 ecr 2742512982], length 0
+16:39:45.145723 IP 186.1.178.61.60472 > comp3134Winter2024.ssh: Flags [P.], seq 0:22, ack 1, win 502, options [nop,nop,TS val 1817853652 ecr 2742512982], length 22: SSH: SSH-2.0-libssh_0.9.6
+16:39:45.147879 IP 67.207.67.2.domain > comp3134Winter2024.54830: 34238 NXDomain 0/1/1 (123)
+16:39:45.148068 IP 67.207.67.2.domain > comp3134Winter2024.42641: 51316 NXDomain 0/1/1 (123)
+16:39:45.148359 IP 67.207.67.2.domain > comp3134Winter2024.54830: 34238 NXDomain 0/1/0 (112)
+16:39:45.148396 IP 67.207.67.2.domain > comp3134Winter2024.49120: Flags [P.], seq 223:337, ack 136, win 128, options [nop,nop,TS val 2781246299 ecr 2453484855], length 114 54784 NXDomain 0/1/0 (112)
+16:39:45.148566 IP 67.207.67.2.domain > comp3134Winter2024.42641: 51316 NXDomain 0/1/0 (112)
+16:39:45.200649 IP 198.96.84.204.56152 > comp3134Winter2024.ssh: Flags [.], ack 6341, win 512, length 0
+16:39:45.247526 IP 186.1.178.61.60472 > comp3134Winter2024.ssh: Flags [.], ack 42, win 502, options [nop,nop,TS val 1817853762 ecr 2742513094], length 0
+^C
+41 packets captured
+44 packets received by filter
+0 packets dropped by kernel

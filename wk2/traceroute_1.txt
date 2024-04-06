@@ -1,0 +1,2 @@
+Trace Route from VM (GBC)
+traceroute to 99.79.139.11 (99.79.139.11), 30 hops max, 60 byte packets
